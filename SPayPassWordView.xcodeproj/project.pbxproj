@@ -17,7 +17,7 @@
 		18FDD64B1EFE9B7D00F483E6 /* SPayPassWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FDD64A1EFE9B7D00F483E6 /* SPayPassWordView.swift */; };
 		18FDD6501EFEA6A800F483E6 /* QQ20170624-215240@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDD64D1EFEA6A800F483E6 /* QQ20170624-215240@2x.png */; };
 		18FDD6511EFEA6A800F483E6 /* QQ20170624-215302@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDD64E1EFEA6A800F483E6 /* QQ20170624-215302@2x.png */; };
-		18FDD6521EFEA6A800F483E6 /* Simulator Screen Shot 2017年6月24日 21.52.20.png in Resources */ = {isa = PBXBuildFile; fileRef = 18FDD64F1EFEA6A800F483E6 /* Simulator Screen Shot 2017年6月24日 21.52.20.png */; };
+		18FDD6541EFEABA200F483E6 /* QQ20170624-221442-HD.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18FDD6531EFEABA200F483E6 /* QQ20170624-221442-HD.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		18FDD64A1EFE9B7D00F483E6 /* SPayPassWordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPayPassWordView.swift; sourceTree = "<group>"; };
 		18FDD64D1EFEA6A800F483E6 /* QQ20170624-215240@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170624-215240@2x.png"; sourceTree = "<group>"; };
 		18FDD64E1EFEA6A800F483E6 /* QQ20170624-215302@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170624-215302@2x.png"; sourceTree = "<group>"; };
-		18FDD64F1EFEA6A800F483E6 /* Simulator Screen Shot 2017年6月24日 21.52.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年6月24日 21.52.20.png"; sourceTree = "<group>"; };
+		18FDD6531EFEABA200F483E6 /* QQ20170624-221442-HD.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "QQ20170624-221442-HD.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 			children = (
 				18FDD64D1EFEA6A800F483E6 /* QQ20170624-215240@2x.png */,
 				18FDD64E1EFEA6A800F483E6 /* QQ20170624-215302@2x.png */,
-				18FDD64F1EFEA6A800F483E6 /* Simulator Screen Shot 2017年6月24日 21.52.20.png */,
+				18FDD6531EFEABA200F483E6 /* QQ20170624-221442-HD.gif */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 				18FDD6251EFE9ACC00F483E6 /* Assets.xcassets in Resources */,
 				18FDD6231EFE9ACC00F483E6 /* Main.storyboard in Resources */,
 				18FDD6511EFEA6A800F483E6 /* QQ20170624-215302@2x.png in Resources */,
-				18FDD6521EFEA6A800F483E6 /* Simulator Screen Shot 2017年6月24日 21.52.20.png in Resources */,
+				18FDD6541EFEABA200F483E6 /* QQ20170624-221442-HD.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

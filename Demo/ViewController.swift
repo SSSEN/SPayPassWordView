@@ -22,6 +22,20 @@ class ViewController: UIViewController {
         payPassWordView.input()
     }
     
+    
+    func test(){
+        
+        let payPassWordView = SPayPassWordView(frame: CGRect(x: 0, y: 0, width: 300, height: 40))
+        payPassWordView.lenght = 6
+        payPassWordView.borderColor = .blue
+        payPassWordView.borderRadius = 10
+        payPassWordView.starColor   = .cyan
+        payPassWordView.delegate = self
+        
+        
+        
+    }
+    
 }
 
 extension ViewController: SPayPassWordViewDelegate{
