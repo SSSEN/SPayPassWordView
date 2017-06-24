@@ -33,5 +33,5 @@
 	}
 ```
 
-
-![](https://github.com/SSSEN/SPayPassWordView/blob/master/images/Simulator%20Screen%20Shot%202017年6月24日%2021.52.20.png?raw=true)
+## demo
+![](https://github.com/SSSEN/SPayPassWordView/blob/master/images/QQ20170624-221442-HD.gif?raw=true)
