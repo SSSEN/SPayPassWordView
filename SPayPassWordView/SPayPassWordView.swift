@@ -136,10 +136,10 @@ extension SPayPassWordView:UITextFieldDelegate{
         if string == "" {
             if password == ""{/// 密码已经为空
                 return true
-            }else if password.characters.count == 1{
+            }else if password.count == 1{
                 password = ""
             }else{
-                password = password.substring(to: password.index(password.startIndex, offsetBy: password.characters.count - 1))
+                password = String(password[..<password.index(password.endIndex, offsetBy: -1)])
             }
         }else{
             password += string
@@ -148,7 +148,7 @@ extension SPayPassWordView:UITextFieldDelegate{
         /// 填充密码框
         for index in 0..<squareArray.count{
             
-            if index < password.characters.count {
+            if index < password.count {
                 squareArray[index].text = "●"
             }else{
                 squareArray[index].text = ""
@@ -156,7 +156,7 @@ extension SPayPassWordView:UITextFieldDelegate{
             
         }
         /// 完成输入
-        if password.characters.count >= lenght {
+        if password.count >= lenght {
             textField.resignFirstResponder
             textField.text = password
             self.delegate?.entryComplete(password: password)
