@@ -157,7 +157,7 @@ extension SPayPassWordView:UITextFieldDelegate{
         }
         /// 完成输入
         if password.count >= lenght {
-            textField.resignFirstResponder
+            textField.resignFirstResponder()
             textField.text = password
             self.delegate?.entryComplete(password: password)
             self.endEditing(true)
